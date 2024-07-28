@@ -2,7 +2,24 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     text-align: center;
-    color: blue;
+    background-color: lightgray;
+    padding: 16px;
+    margin: 2% 20%;
+    border-radius: 10px;
+}
+
+.yellow-card {
+    background-color: #feff7f;
+    margin: 2% 20%;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.blue-card {
+    background-color: #62c4ff;
+    margin: 2% 20%;
+    padding: 16px;
+    border-radius: 10px;
 }
 
 p {
@@ -28,4 +45,8 @@ ol {
     margin-right: auto;
     width: 30%; 
     border-radius: 10px;
+  }
+
+  li {
+    text-decoration: none;
   }
